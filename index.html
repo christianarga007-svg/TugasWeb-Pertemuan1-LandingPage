@@ -3,68 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Pribadi</title>
-    <link rel="stylesheet" href="sass/main.css">
+    <title>Landing Page Pribadi - Christian Arga Capah</title>
+    <meta name="description" content="Ini adalah landing page profil pribadi saya untuk Tugas Rutin 1 Pemrograman Web.">
 </head>
-<body class="page-container">
+<body>
 
-    <header class="header-section">
-        <h1 class="header-title">Profil Landing Page</h1>
-        <nav class="nav-container">
-            <a href="#tentang" class="nav-link">Tentang Saya</a>
-            <a href="#portofolio" class="nav-link">Portofolio</a>
-            <a href="#kontak" class="nav-link">Hubungi Saya</a>
+    <header>
+        <h1>Profil Landing Page</h1>
+        <nav>
+            <a href="#tentang">Tentang Saya</a> |
+            <a href="#portofolio">Portofolio</a> |
+            <a href="#kontak">Hubungi Saya</a>
         </nav>
     </header>
 
-    <main class="main-content">
+    <main>
         <article>
             <h2>Informasi Profil Lengkap</h2>
             
-            <section id="tentang" class="content-section">
+            <section id="tentang">
                 <h3>Tentang Saya</h3>
                 <p>Halo, nama saya Christian Arga Capah. Saya adalah seorang mahasiswa yang sedang belajar membangun website.</p>
             </section>
 
-            <section id="portofolio" class="content-section">
+            <section id="portofolio">
                 <h3>Karya dan Minat</h3>
-                <p>Saat ini saya sedang menyelesaikan Tugas Rutin 2 untuk mata kuliah Pemrograman Web.</p>
+                <p>Saat ini saya sedang menyelesaikan Tugas Rutin 1 untuk mata kuliah Pemrograman Web.</p>
             </section>
             
-            <section id="galeri" class="content-section">
+            <section id="galeri">
                 <h3>Galeri</h3>
-                <figure class="gallery-item">
-                    <img src="foto-profil.jpg" alt="Foto profil belajar coding" width="300">
+                <figure>
+                    <img src="foto-profil.jpg" alt="Foto profil saya saat sedang belajar coding" width="300">
                     <figcaption>Dokumentasi tugas pada <time datetime="2026-08-24">24 Agustus 2026</time>.</figcaption>
                 </figure>
             </section>
-
-            <section id="kontak" class="content-section">
-                <h3>Hubungi Saya</h3>
-                <p>Email: christianarga007@gmail.com</p>
-                <form action="#" class="contact-form">
-                    <label for="nama">Nama Lengkap:</label>
-                    <input type="text" id="nama" name="nama" required>
-
-                    <label for="tanggal_jumpa">Rencana Tanggal Pertemuan:</label>
-                    <input type="date" id="tanggal_jumpa" name="tanggal_jumpa" required>
-
-                    <label for="warna">Pilih Tema Warna Kesukaanmu:</label>
-                    <input type="color" id="warna" name="warna">
-
-                    <button type="submit" class="btn-submit">Kirim Pesan</button>
-                </form>
-            </section>
         </article>
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <p>Email: christianarga007@gmail.com</p>
+            <form action="#">
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+
+                <label for="tanggal_jumpa">Rencana Tanggal Pertemuan:</label><br>
+                <input type="date" id="tanggal_jumpa" name="tanggal_jumpa" required><br><br>
+
+                <label for="warna">Pilih Tema Warna Kesukaanmu:</label><br>
+                <input type="color" id="warna" name="warna"><br><br>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+        
+        <aside>
+            <h2>Info Singkat</h2>
+            <p>Lokasi: Medan, Indonesia</p>
+            <p>Status: Mahasiswa Aktif</p>
+        </aside>
     </main>
 
-    <aside class="sidebar-section">
-        <h2>Info Singkat</h2>
-        <p>Lokasi: Medan, Indonesia</p>
-        <p>Status: Mahasiswa Aktif</p>
-    </aside>
-
-    <footer class="footer-section">
+    <footer>
         <p>&copy; 2026 Christian Arga Capah. All rights reserved.</p>
     </footer>
 
